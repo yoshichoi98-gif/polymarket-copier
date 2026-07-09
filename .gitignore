@@ -1,0 +1,13 @@
+# Data & logs — never commit (the ledger is hundreds of MB of paper-trade data)
+*.db
+*.db-wal
+*.db-shm
+*.log
+
+# Local/OS cruft
+__pycache__/
+*.pyc
+.DS_Store
+
+# Disabled launchd plist (machine-specific)
+*.plist.disabled
